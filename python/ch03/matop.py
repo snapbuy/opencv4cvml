@@ -3,7 +3,7 @@ import cv2
 
 
 def func1():
-    img1 = cv2.imread('cat.bmp', cv2.IMREAD_GRAYSCALE)
+    img1 = cv2.imread('/Volumes/T7/git/opencv4cvml/python/ch03/cat.bmp', cv2.IMREAD_GRAYSCALE)
 
     if img1 is None:
         print('Image load failed!')
@@ -39,7 +39,7 @@ def func2():
 
 
 def func3():
-    img1 = cv2.imread('cat.bmp')
+    img1 = cv2.imread('/Volumes/T7/git/opencv4cvml/python/ch03/cat.bmp')
 
     img2 = img1
     img3 = img1.copy()
@@ -54,7 +54,7 @@ def func3():
 
 
 def func4():
-    img1 = cv2.imread('lenna.bmp', cv2.IMREAD_GRAYSCALE)
+    img1 = cv2.imread('/Volumes/T7/git/opencv4cvml/python/ch03/lenna.bmp', cv2.IMREAD_GRAYSCALE)
 
     img2 = img1[200:400, 200:400]
     img3 = img1[200:400, 200:400].copy()
