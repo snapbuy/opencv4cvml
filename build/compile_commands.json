@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Volumes/T7/git/opencv4cvml/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Os -DNDEBUG -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o CMakeFiles/hello.dir/hello.cpp.o -c /Volumes/T7/git/opencv4cvml/hello.cpp",
+  "file": "/Volumes/T7/git/opencv4cvml/hello.cpp"
+}
+]
