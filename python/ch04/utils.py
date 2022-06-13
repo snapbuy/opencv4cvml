@@ -3,8 +3,8 @@ import cv2
 
 
 def mask_setTo():
-    src = cv2.imread('lenna.bmp', cv2.IMREAD_COLOR)
-    mask = cv2.imread('mask_smile.bmp', cv2.IMREAD_GRAYSCALE)
+    src = cv2.imread('/Volumes/T7/git/opencv4cvml/python/ch04/lenna.bmp', cv2.IMREAD_COLOR)
+    mask = cv2.imread('/Volumes/T7/git/opencv4cvml/python/ch04/mask_smile.bmp', cv2.IMREAD_GRAYSCALE)
 
     if src is None or mask is None:
         print('Image load failed!')
@@ -19,9 +19,9 @@ def mask_setTo():
 
 
 def mask_copyTo():
-    src = cv2.imread('airplane.bmp', cv2.IMREAD_COLOR)
-    mask = cv2.imread('mask_plane.bmp', cv2.IMREAD_GRAYSCALE)
-    dst = cv2.imread('field.bmp', cv2.IMREAD_COLOR)
+    src = cv2.imread('/Volumes/T7/git/opencv4cvml/python/ch04/airplane.bmp', cv2.IMREAD_COLOR)
+    mask = cv2.imread('/Volumes/T7/git/opencv4cvml/python/ch04/mask_plane.bmp', cv2.IMREAD_GRAYSCALE)
+    dst = cv2.imread('/Volumes/T7/git/opencv4cvml/python/ch04 /field.bmp', cv2.IMREAD_COLOR)
 
     if src is None or mask is None or dst is None:
         print('Image load failed!')

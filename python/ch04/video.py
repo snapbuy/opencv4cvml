@@ -30,7 +30,7 @@ def camera_in():
 
 
 def video_in():
-    cap = cv2.VideoCapture('stopwatch.avi')
+    cap = cv2.VideoCapture('/Volumes/T7/git/opencv4cvml/python/ch04/stopwatch.avi')
 
     if not cap.isOpened():
         print("Video open failed!")
