@@ -3,7 +3,7 @@ import cv2
 
 print('Hello OpenCV', cv2.__version__)
 
-img = cv2.imread('/Volumes/T7/git/opencv4cvml/python/ch02/lenna.bmp')
+img = cv2.imread('./lenna.bmp')
 
 if img is None:
     print('Image load failed!')

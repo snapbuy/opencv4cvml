@@ -14,7 +14,7 @@ CostDataFile:
 Site: mac.local
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Darwin-c++
+BuildName: Darwin-clang++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -27,8 +27,8 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake" "/Volumes/T7/git/opencv4cvml"
-MakeCommand: /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.24.0/bin/cmake" "/Volumes/T7/git/opencv4cvml"
+MakeCommand: /opt/homebrew/Cellar/cmake/3.24.0/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -63,8 +63,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
-CompilerVersion: 13.1.6.13160021
+Compiler: /usr/bin/clang++
+CompilerVersion: 14.0.0.14000029
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
