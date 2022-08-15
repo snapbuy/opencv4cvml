@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Volumes/T7/git/opencv4cvml/build",
-  "command": "/usr/bin/clang++   -Os -DNDEBUG -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -o CMakeFiles/hello.dir/hello.cpp.o -c /Volumes/T7/git/opencv4cvml/hello.cpp",
+  "command": "/usr/bin/clang++   -O3 -DNDEBUG -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -o CMakeFiles/hello.dir/hello.cpp.o -c /Volumes/T7/git/opencv4cvml/hello.cpp",
   "file": "/Volumes/T7/git/opencv4cvml/hello.cpp"
 }
 ]
