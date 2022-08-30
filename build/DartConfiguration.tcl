@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.24.0/bin/cmake" "/Volumes/T7/git/opencv4cvml"
+ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.24.1/bin/cmake" "/Volumes/T7/git/opencv4cvml"
 MakeCommand: /opt/homebrew/Cellar/cmake/3.24.0/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.24.0/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.24.0/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ include CMakeFiles/Nightly.dir/compiler_depend.make
 include CMakeFiles/Nightly.dir/progress.make
 
 CMakeFiles/Nightly:
-	/opt/homebrew/Cellar/cmake/3.24.0/bin/ctest -D Nightly
+	/opt/homebrew/Cellar/cmake/3.24.1/bin/ctest -D Nightly
 
 Nightly: CMakeFiles/Nightly
 Nightly: CMakeFiles/Nightly.dir/build.make

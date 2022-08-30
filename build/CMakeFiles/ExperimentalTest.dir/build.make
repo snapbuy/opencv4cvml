@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.24.0/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.24.0/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.24.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ include CMakeFiles/ExperimentalTest.dir/compiler_depend.make
 include CMakeFiles/ExperimentalTest.dir/progress.make
 
 CMakeFiles/ExperimentalTest:
-	/opt/homebrew/Cellar/cmake/3.24.0/bin/ctest -D ExperimentalTest
+	/opt/homebrew/Cellar/cmake/3.24.1/bin/ctest -D ExperimentalTest
 
 ExperimentalTest: CMakeFiles/ExperimentalTest
 ExperimentalTest: CMakeFiles/ExperimentalTest.dir/build.make
